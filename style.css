@@ -21,7 +21,7 @@ body {
     border-radius: 10px;
     width: 700px;
     margin-top: 300px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .image-imc {
@@ -51,7 +51,7 @@ body {
     font-size: 2rem;
     padding: 10px;
     font-family: 'Mouse Memoirs', sans-serif;
-    width: 100%;
+    width: 120%;
     border: none;
     border-radius: 10px;
 }
