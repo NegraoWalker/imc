@@ -15,21 +15,21 @@
 </head>
 
 <body>
-    <div class="container-main" id="container-main">
+    <div id="container-main" class="container-main">
         <header id="title-main" class="title-main">
             <h1>IMC</h1>
         </header>
 
-        <main id="receive-inform" class="receibe-inform">
+        <main id="receive-inform" class="receive-inform">
             <div id="receive-inputs" class="receive-inputs">
                 <label for="name">Nome:</label>
-                <input type="text" id="name" class="name">
+                <input type="text" id="name" class="name" placeholder="Digite seu nome">
 
                 <label for="height">Altura:</label>
-                <input type="number" id="height" class="height">
+                <input type="text" id="height" class="height" placeholder="Digite sua altura em metros">
 
                 <label for="weigth">Peso:</label>
-                <input type="number" id="weight" class="weight">
+                <input type="text" id="weight" class="weight" placeholder="Digite seu peso em kg">
             </div>
 
             <div id="trigger" class="trigger">
@@ -40,6 +40,10 @@
         <div id="result" class="result">
 
         </div>
+    </div>
+
+    <div id="image-imc" class="image-imc">
+        <img src="tabela-imc.png" alt="tabela-imc">
     </div>
     <script src="script.js"></script>
 </body>
